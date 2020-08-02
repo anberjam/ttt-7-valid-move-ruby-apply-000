@@ -9,7 +9,6 @@ def position_taken? (board, index)
   else 
     return TRUE
   end
-end
 
 def valid_move? (board,index)
   if (index>=0 && index<=8) && !position_taken?
@@ -17,3 +16,4 @@ def valid_move? (board,index)
   else 
     return false
 end 
+end
